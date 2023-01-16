@@ -1,0 +1,48 @@
+.Menu {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: inherit;
+    z-index: 30;
+    width: 100vw;
+    height: 10vh;
+    padding: 0 10rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 2px 2px #4d4d4d77;
+}
+
+
+
+.PagesContent {
+  list-style: none;
+  display: flex;
+  background-color: inherit;
+  justify-content: flex-end;  
+}
+
+.PagesContent>li{
+  margin: 0 3rem;
+  background-color: inherit;
+}
+
+li>a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+li>a:hover{
+  border-radius: 0.3rem;
+  width: 5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration-line: 3px;
+  text-decoration-thickness: 0.1rem;
+  background-color: #4283c094;
+}
+
+@media (max-width: 1024px) {
+  .Menu{ height: 20vh;}
+  .PagesContent{display: inline;}
+}

@@ -1,0 +1,41 @@
+.Contact{
+    width: 90vw;
+    margin: 5rem auto;
+    border: 2px solid red;
+    text-align: center;
+
+    
+}
+
+
+.Coisas{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.Resto{
+    display: flex;
+    margin: auto;
+    border: 2px solid red;
+}
+.Alinha{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.Maps{
+    
+    
+    margin: auto;
+}
+.Maps iframe{
+    border: 0;
+    border-radius: 1rem;
+    width:40vw;
+    height:40vh;
+
+}

@@ -1,0 +1,66 @@
+.Services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    width: 90vw;
+    text-align: center;
+}
+.icoCards{
+    background-color: inherit;
+    height: 7vh;
+}
+
+.Cards{
+    border: 1px solid rgb(12, 40, 77);
+    border-radius: 1rem;
+    width: 19.5rem;
+    height: 25rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    
+}
+.Cards:hover{
+    background-color:rgb(21, 53, 94);
+}
+
+.Cards header{
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 1.8rem;
+    height: 7rem;
+    
+}
+.Cards section{
+    background-color: inherit;
+    font-weight: 400;
+    height: 5rem;
+    align-items: center;
+}
+
+.Cards footer{
+    background-color: inherit;
+    font-weight: 100;
+    text-justify: inter-word;
+    text-align: justify;
+    text-align-last: center;
+    font-size: smaller;
+    height: 5rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.FivePound{
+    margin: 4rem auto;
+}
+.FivePound a{
+    text-decoration: none;
+}
+.FivePound header{
+    font-weight: 700;
+    font-size: xx-large;
+}
+.FivePound section img{
+    width: 80rem;
+    height: 100%;
+}

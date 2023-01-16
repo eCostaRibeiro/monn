@@ -1,0 +1,12 @@
+.icoSocial{
+    display: 1;
+    margin: 0 0.3rem;
+    
+}
+.icoSocial:hover{
+    background-color:#4283c07e;
+    border-radius: 0.2rem;
+}
+span>a:hover{
+    background-color: inherit;
+}

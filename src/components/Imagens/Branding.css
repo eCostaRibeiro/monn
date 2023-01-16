@@ -1,0 +1,12 @@
+.Branding{
+    background-color: inherit;
+    padding: 0.6rem;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .Branding{
+        width: 8rem;
+        margin: auto;
+    }
+}
