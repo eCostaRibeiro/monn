@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monn/static/css/main.012073df.css",
+    "main.js": "/monn/static/js/main.1efc5418.js",
+    "index.html": "/monn/index.html",
+    "main.012073df.css.map": "/monn/static/css/main.012073df.css.map",
+    "main.1efc5418.js.map": "/monn/static/js/main.1efc5418.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.012073df.css",
+    "static/js/main.1efc5418.js"
+  ]
+}
