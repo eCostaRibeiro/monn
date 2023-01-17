@@ -6,7 +6,9 @@
     color: white;
     font-family: 'Mada', sans-serif;
     background-color: #000000;
+    min-width: 640;
     max-width: 1920px;
+    display: flexbox;
 }
 
 body{

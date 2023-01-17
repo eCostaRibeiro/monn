@@ -4,8 +4,9 @@
     
 }
 .icoSocial:hover{
-    background-color:#4283c07e;
-    border-radius: 0.2rem;
+    background-color:inherit;
+    width: 3rem;
+    height: 3rem;
 }
 span>a:hover{
     background-color: inherit;

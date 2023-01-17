@@ -1,13 +1,5 @@
 .App {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
- 
-}
-
-
-
-.Paginas {
-    display: flex;
-    flex-wrap: wrap;
  
 }

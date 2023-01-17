@@ -5,12 +5,15 @@
     text-align: right;
     padding-right: 6.5rem;
     max-width: 1920px;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
 }
 
 .MainTitle::after{
     content: "";
     display: block;
-    width: 80rem;
+    width: 60%;
     height: 0.1rem;
     background: #ffffff72;
     left: 5rem;
@@ -22,6 +25,7 @@
 
 @media (max-width: 1680px){
     .MainTitle::after{
-        width: 30rem;
+        width: 50%;
+        top: -0.5;
     }
 }

@@ -1,13 +1,18 @@
 .About{
-    width: 90vw;
+    width: 70vw;
+    
     margin: auto;
-    border: 1px solid rgb(12, 40, 77);
+    margin-top: rem;
+    border: 1px solid rgba(12, 40, 77, 0.445);
     border-radius: 1rem;
     padding: 2rem;
-    display: flex;
+    display: flexbox;
     flex-direction: column;
 }
 
+.Espasso{
+    margin-top: 300rem;
+}
 
 .Estudio{
     flex: 1;
@@ -20,31 +25,43 @@
 }
 .Estudio section{
     text-align: justify;
-    width: 50vw;
+    width: 50rem;
+    font-size: 1.3rem;
     margin: auto;
 }
 
 
+.Nozes{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 .Staff{
-    width: 70vw;
+    width: 50rem;
+    height: 27rem;
     margin: 3rem auto auto auto;
-    flex: 1;
-    
+    display: flex;
+    border: 1px solid rgb(12, 40, 77);
+    border-radius: 1rem;
+    padding: 2rem;    
 }
 
 .Staff header{
     font-size: 2rem;
     font-weight: 600;
-    
+    text-align: right;
+    margin: auto 1rem;
 }
 .Staff section{
     text-align: justify;
-    width: 60vw;
 }
 
 
 .Pics{
     width: 17rem;
-    height: 100%;
+    height: 20rem;
     border-radius: 40rem;
+    background-color: inherit;
 }
