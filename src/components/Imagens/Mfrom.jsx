@@ -1,4 +1,5 @@
 import React from "react"
+import mFrom from "./mFromMonn.svg"
 
 import "./Mfrom.css"
 
@@ -6,6 +7,6 @@ import "./Mfrom.css"
 export default props =>
     <img
         className="Rodape"
-        src="/imgs/mFromMonn.svg"
+        src={mFrom}
         alt="Copyright Monn Custom Audio"
     />

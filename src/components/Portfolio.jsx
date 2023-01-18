@@ -3,7 +3,7 @@ import Title from './utils/Title'
 import Subtitle from './utils/Subtitle'
 import "./Portfolio.css"
 import Players from "./Players"
-import Services from './Services'
+
 
 
 
@@ -19,6 +19,8 @@ export default props => (
             <Title titulo="Portfólio" />
             <Subtitle titulo="Publicitários" />
             <div className="GridVimeo">
+                <iframe width={largura} height={altura} src="https://www.youtube.com/embed/ZlOIRPp34TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
                 <iframe title='reels' allowfullscreen="" frameborder="0" height={altura} mozallowfullscreen="" src="https://player.vimeo.com/video/687658239?h=d4fdd64ce8" width={largura}></iframe>
 
                 <iframe title='upburger' allowfullscreen="" frameborder="0" height={altura} mozallowfullscreen="" src="https://player.vimeo.com/video/494182764?h=340f07bc28" width={largura}></iframe>
@@ -77,9 +79,6 @@ export default props => (
             <Subtitle titulo="Músicas" />
             <Players />
         </div >
-        <div title='Services' className='Section'>
-            <Title titulo="Serviços" />
-            <Services />
-        </div>
+
     </>
 );

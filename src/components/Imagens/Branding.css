@@ -1,12 +1,18 @@
-.Branding{
-    background-color: inherit;
-    width: 20rem;
-    height: auto;
+.folder{
+    width: 90vw;
+    height: 90vh
 }
-
-@media (max-width: 1024px) {
-    .Branding{
-        width: 10rem;
-        margin: auto;
-    }
+.Branding{
+    background-color: rgba(0, 0, 0, 0);
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    padding-top: 3rem;
+    position: absolute;
+}
+.LogoBG{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: absolute;
 }

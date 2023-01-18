@@ -22,10 +22,11 @@ export default props => (
                     <footer><MdEmail className="icoInfo" size={sizeIco} /></footer>
                 </a>
 
-                <div className="Input">
+                <a className="Input" href="https://maps.google.com/maps?ll=-21.606591,-48.363801&z=13&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=6759202619558012111">
                     <section>Rua Sinharinha Frota, 1021, Centro - Matão/SP</section>
                     <footer><MdLocationPin className="icoInfo" size={sizeIco} /></footer>
-                </div>
+                </a>
+
             </div>
 
             <div className="Infos">

@@ -1,19 +1,30 @@
 import "./Navbar.css"
 import Logo from "./Imagens/Branding"
 import Midias from "./Imagens/Midias"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 
 import React from "react"
 
 
+const offSet = 100
 
-const RightNav = ({ open }) => {
+const RightNav = ({ props }) => {
     return (
-        <ul open={open} className="PagesContent">
-            <li><a href='#portfolio'>portfólio</a></li>
-            <li><a href='#services'>serviços</a></li>
-            <li><a href="#id-About">sobre</a></li>
-            <li><a href='#contact'>contato</a></li>
+        <ul className="PagesContent">
+
+            <li>
+                <AnchorLink offset={offSet} href='#portfolio'>portfólio</AnchorLink>
+            </li>
+            <li>
+                <AnchorLink offset={offSet} href='#services'>serviços</AnchorLink>
+            </li>
+            <li>
+                <AnchorLink offset={offSet} href="#idAbout">sobre</AnchorLink>
+            </li>
+            <li>
+                <AnchorLink offset={offSet} href='#contact'>contato</AnchorLink>
+            </li>
         </ul>
     )
 }
@@ -22,7 +33,6 @@ const RightNav = ({ open }) => {
 
 export default props =>
     <nav className="Menu">
-        <Logo />
         <RightNav />
         <Midias />
     </nav>
