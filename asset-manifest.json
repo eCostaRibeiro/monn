@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/monn/static/css/main.012073df.css",
-    "main.js": "/monn/static/js/main.1efc5418.js",
+    "main.css": "/monn/static/css/main.baaba189.css",
+    "main.js": "/monn/static/js/main.92742253.js",
+    "static/media/bgVideo.mp4": "/monn/static/media/bgVideo.2c6ed91b11821622b388.mp4",
+    "static/media/pandaCosta.png": "/monn/static/media/pandaCosta.9be3050aa2735fcdc27d.png",
+    "static/media/jomMonnazzi.png": "/monn/static/media/jomMonnazzi.945af797b9c003892ef1.png",
+    "static/media/poundfive.png": "/monn/static/media/poundfive.db548c38372d25972613.png",
+    "static/media/logoMonn.svg": "/monn/static/media/logoMonn.c0f165ea7bdcadc146227c507079e5fa.svg",
+    "static/media/mFromMonn.svg": "/monn/static/media/mFromMonn.0a42ad71f707fdb7f65a006fe0fa174d.svg",
     "index.html": "/monn/index.html",
-    "main.012073df.css.map": "/monn/static/css/main.012073df.css.map",
-    "main.1efc5418.js.map": "/monn/static/js/main.1efc5418.js.map"
+    "main.baaba189.css.map": "/monn/static/css/main.baaba189.css.map",
+    "main.92742253.js.map": "/monn/static/js/main.92742253.js.map"
   },
   "entrypoints": [
-    "static/css/main.012073df.css",
-    "static/js/main.1efc5418.js"
+    "static/css/main.baaba189.css",
+    "static/js/main.92742253.js"
   ]
 }
