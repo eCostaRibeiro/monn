@@ -1,0 +1,36 @@
+.MenuItens{
+    background-color: inherit;
+    margin-top: 0.3rem;
+}
+
+
+ul {
+    list-style: none;
+    display:flex;
+    background-color: inherit;
+    
+    
+}
+  
+li{
+    
+    padding: 0 0.5rem;
+    background-color: inherit;
+}
+  
+li>a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 200;
+    background-color: inherit;
+}
+  
+li>a:hover{
+    width: 3rem;
+    font-size: 2rem;
+    text-decoration-line: 3px;
+    text-decoration: overline;
+    text-decoration-thickness: 0.1rem;
+    transition: all 1s;
+    transition-timing-function: ease-in-out;
+}

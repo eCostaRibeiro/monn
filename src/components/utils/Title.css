@@ -26,6 +26,6 @@
 @media (max-width: 1680px){
     .MainTitle::after{
         width: 50%;
-        top: -0.5;
+        top:-1rem;
     }
 }

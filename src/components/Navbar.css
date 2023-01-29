@@ -1,45 +1,12 @@
 .Menu {
     position: fixed;
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: inherit;
-    z-index: 30;
-    top: 0.6rem;
+    background-color:rgb(26, 104, 150);
+    z-index: 3000;
+    top: 2rem;
     right: 0;
-    width: fit-content;
-    height: fit-content;
-    padding: 0 10rem;
-    align-items: center;
     box-shadow: 0px 0px 1px 7px #2a354b1e;
-    border-radius: 1rem 1rem 1rem 1rem;
-    justify-content: space-between;
-}
-
-.PagesContent {
-  list-style: none;
-  display: flex;
-  background-color: inherit;
-  justify-content: flex-end;  
-}
-
-.PagesContent>li{
-  padding: 1rem;
-  background-color: inherit;
-}
-
-li>a{
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 200;
-}
-
-li>a:hover{
-  border-radius: 0.3rem;
-  width: 5rem;
-  font-size: 5rem;
-  text-decoration-line: 3px;
-  text-decoration: overline;
-  text-decoration-thickness: 0.1rem;
-  transition: all 1s;
-  transition-timing-function: ease-in-out;
+    width: fit-content;
+    height: 6rem;
+    align-self: center;
+    text-align: right;
 }

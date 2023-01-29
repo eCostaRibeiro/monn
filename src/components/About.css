@@ -1,67 +1,123 @@
-.About{
-    width: 70vw;
+@media (orientation:portrait) {
+    .About{
+        width: 70vw;
+        
+        margin: auto;
+     
+        border: 1px solid rgba(12, 40, 77, 0.445);
+        border-radius: 1rem;
+        padding: 2rem;
+        display: flexbox;
+        flex-direction: column;
+    }
+    .Estudio{
+        margin-bottom: 3rem;
+    }
+    .Estudio header{
+        font-size: 3rem;
+        margin: auto;
+        text-align: center;
+    }
+    .Estudio section{
+        text-align: justify;
+        
+        font-size: 1.3rem;
+        margin: auto;
+    }
     
-    margin: auto;
-    margin-top: rem;
-    border: 1px solid rgba(12, 40, 77, 0.445);
-    border-radius: 1rem;
-    padding: 2rem;
-    display: flexbox;
-    flex-direction: column;
+    .Staff header{
+        font-size: 1.5rem;
+        font-weight: 600;
+        
+    }
+    .Nozes{
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .Staff{
+        margin-top: 3rem;
+    }
+    .Staff section{
+        text-align: justify;
+        margin: auto;
+    }
+    .Pics{
+        width: 17rem;
+        height: 19rem;
+        border-radius: 40rem;
+        background-color: inherit;
+    }
 }
 
-.Espasso{
-    margin-top: 300rem;
-}
-
-.Estudio{
-    flex: 1;
+@media (orientation:landscape){
+    .About{
+        width: 70vw;
+        
+        margin: auto;
+     
+        border: 1px solid rgba(12, 40, 77, 0.445);
+        border-radius: 1rem;
+        padding: 2rem;
+        display: flexbox;
+        flex-direction: column;
+    }
     
-}
-.Estudio header{
-    font-size: 5rem;
-    margin: auto;
-    text-align: center;
-}
-.Estudio section{
-    text-align: justify;
-    width: 50rem;
-    font-size: 1.3rem;
-    margin: auto;
-}
-
-
-.Nozes{
-    display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
-.Staff{
-    width: 50rem;
-    height: 30rem;
-    margin: 3rem auto auto auto;
-    display: flex;
-    border: 1px solid rgb(12, 40, 77);
-    border-radius: 1rem;
-    padding: 2rem;    
-}
-
-.Staff header{
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: right;
-    margin: auto 1rem;
-}
-.Staff section{
-    text-align: justify;
-}
-
-
-.Pics{
-    width: 17rem;
-    height: 20rem;
-    border-radius: 40rem;
-    background-color: inherit;
+    .Espasso{
+        margin-top: 300rem;
+    }
+    
+    .Estudio{
+        flex: 1;
+        
+    }
+    .Estudio header{
+        font-size: 5rem;
+        margin: auto;
+        text-align: center;
+    }
+    .Estudio section{
+        text-align: justify;
+        width: 50rem;
+        font-size: 1.3rem;
+        margin: auto;
+    }
+    
+    
+    .Nozes{
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    .Staff{
+        width: 50rem;
+        height: 30rem;
+        margin: 3rem auto auto auto;
+        display: flex;
+        border: 1px solid rgb(12, 40, 77);
+        border-radius: 1rem;
+        padding: 2rem;    
+    }
+    
+    .Staff header{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: right;
+        margin: auto 1rem;
+    }
+    .Staff section{
+        text-align: justify;
+    }
+    
+    
+    .Pics{
+        width: 17rem;
+        height: 20rem;
+        border-radius: 40rem;
+        background-color: inherit;
+    }
 }

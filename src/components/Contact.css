@@ -1,18 +1,22 @@
 .Contact{
-    width: 70rem;
+    display: flex;
+    width: fit-content;
     margin: auto;
     text-align: center;
-    display: flex
+    flex-wrap: wrap;
 }
 
 .Maps {
     border: 0;
     border-radius: 1rem;
-    width:40rem;
-    height:23rem;
+    width:25rem;
+    height: 22rem;
+    margin: 1rem auto;
+    
 }
 .Infos{
-    display: flexbox;    
+    margin: 1rem auto ;
+    
 }
 .Infos > a{
     text-decoration: none;
@@ -24,6 +28,7 @@
     border-radius: 1rem;
     margin: 1rem auto;
     width: 25rem;
+    
     padding: 1rem;
 }
 
