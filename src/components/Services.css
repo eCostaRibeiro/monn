@@ -4,7 +4,6 @@
     width: 90%;
     text-align: center;
     flex-wrap: wrap;
-    justify-content: left;
 }
 
 .icoCards{
@@ -17,8 +16,8 @@
     border-radius: 1rem;
     width: 19.5rem;
     height: 25rem;
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: 1rem 3rem;
+    padding: 1rem;    
 }
 .Cards:hover{
     background-color:rgb(21, 53, 94);

@@ -1,5 +1,4 @@
 import "./Navbar.css"
-import Logo from "./Imagens/Branding"
 import Midias from "./Imagens/Midias"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
