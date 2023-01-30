@@ -1,6 +1,9 @@
 .Container{
     background-color:inherit;
     margin-top: 0.5rem;
+    
+    width: fit-content;
+    margin-right: 1rem;
 }
 .Container>a{
     background-color:inherit;
@@ -13,6 +16,6 @@
     background-color:inherit;
     width: 3rem;
     height: 3rem;
-    transition: all 1s;
-    transition-timing-function: ease;
+    transition: all 0.1s;
+    transition-timing-function: ease-in-out;
 }

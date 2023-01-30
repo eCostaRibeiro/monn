@@ -1,7 +1,7 @@
 .WhatsApp{
     z-index: 300;
     position: fixed;
-    right: 5rem;
+    right: 1rem;
     bottom: 8rem;
     border-radius: 2.5rem 2.5rem 2.5rem 0.3rem ;
     background-color: #075e54be;    

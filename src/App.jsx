@@ -9,7 +9,7 @@ import Contact from "./components/Contact"
 import ButtonW from "./components/Imagens/ButtonW"
 import React from "react"
 import Logo from "./components/Imagens/Branding"
-
+import ScrollToTop from "react-scroll-to-top"
 
 
 export default props => (
@@ -32,9 +32,7 @@ export default props => (
         <div id='contact'>
             <Contact />
         </div>
-
-
-
+        <ScrollToTop smooth color="#2573b3" width="40" height="40" />
 
         <Footer />
     </div>

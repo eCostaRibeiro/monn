@@ -21,6 +21,7 @@
 .Infos > a{
     text-decoration: none;
 }
+
 .Contact > .Infos > .Input{
     display: flex;
     flex-direction: column;
@@ -32,6 +33,9 @@
     padding: 1rem;
 }
 
+.Contact > .Infos > .Input:hover{
+    background-color: #1e4577;
+}
 .Resto{
     text-align: center;
     margin: 4rem auto;
